@@ -13,4 +13,10 @@
     font-weight: 700;
     text-decoration: none;
   }
+
+  @mixin atMedium {
+    p {
+      line-height: 1.1;
+    }
+  }
 }
