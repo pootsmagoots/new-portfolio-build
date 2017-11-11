@@ -460,6 +460,15 @@ img {
   height: auto;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: #d59541;
+}
+
 .large-hero {
   position: relative;
   border-bottom: 10px solid #2f5572;
@@ -577,26 +586,40 @@ img {
   }
 
 .wrapper {
+  overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; /*End of nest wrapper */
 }
 
-.wrapper--medium {
+.wrapper--medium {   /*This wrapper-medium class is used to fix the width of the coastal image */
     max-width: 976px;
+
   }
 
-.wrapper .wrapper {
+.wrapper .wrapper { /*This wrapper and its children only pertains to the  beach and image */
     padding-left: 0;
     padding-right: 0;
+    overflow: visible;
   }
 
-.wrapper .wrapper__image {
-    -webkit-box-shadow: 5px 5px #d59541, -0.5em 0 .2em #2f5572;
-            box-shadow: 5px 5px #d59541, -0.5em 0 .2em #2f5572; /*adds two color */
+.wrapper .wrapper--shadow {
+    -webkit-box-shadow: 5px 5px #d59541, -0.4em 0 .2em #2f5572;
+            box-shadow: 5px 5px #d59541, -0.4em 0 .2em #2f5572; /*adds two color */
    }
+
+.wrapper .wrapper--b-margin {
+    margin-bottom: 1rem;
+   }
+
+@media (min-width: 530px) {
+
+.wrapper .wrapper--b-margin {
+        margin-bottom: 3.875rem
+   }
+  }
 
 .page-section {
   padding: 1.5rem 0;
@@ -666,18 +689,102 @@ img {
   }
   }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 2rem;
-}
-
-.row__column-one {
-   max-width: 50%;
+.headline--no-t-margin {
+    margin-top: 0;
   }
 
-.row__column-two {
-   max-width: 50%;
-   margin-left: 2rem;
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+  }
+
+.row--gutters {
+    margin-right: -65px;
+  }
+
+.row--gutters > div {
+    padding-right: 65px;
+
+  }
+
+/*This is Flexbox Code */
+
+.row__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+
+/*@mixin atMedium {
+    flex-direction: row;
+  }*/
+
+@media (min-width: 800px) {
+
+.row {
+   /*@mixin atSmall {
+      max-width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    @mixin atMedium {
+      max-width: 50%;
+    }*/   /*This is Flexbox Code */
+
+}
+    .row__b-margin-until-medium {
+     margin-bottom: 0;
+    }
+    .row__medium-4 {
+    float: left;
+    width: 33.3%;
+  }
+
+  .row--medium-4--larger {
+    width: 37%;
+  }
+  }
+
+/*display: flex;
+  margin-top: 2rem;
+  flex-direction: column;*/
+
+.row__medium-8 {
+   /*margin-left: 2rem;
+
+   @mixin atSmall {
+      max-width: 100%;
+    }
+    @mixin atMedium {
+      margin-left: 3rem;
+      max-width: 50%;
+    }   /* This is Flexbox Code */
+  }
+
+@media (min-width: 800px) {
+
+.row__medium-8 {
+      float: left;
+      width: 66.66%
+  }
+  }
+
+.row__medium-8--medium-small {
+      width: 63%;
+    }
+
+.generic-content-container p {
+    line-height: 1.65;
+    margin: 1.8rem 0;
+  }
+
+@media (min-width: 530px) {
+
+.generic-content-container p {
+    font-size: 1.125rem
+  }
+  }
+
+.generic-content-container p a {
+    font-weight: 700;
+    text-decoration: none;
   }

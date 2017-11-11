@@ -1,20 +1,33 @@
 .wrapper {
+  overflow: hidden;
   padding-left: 18px;
   padding-right: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
 
-  &--medium {
+
+
+  &--medium {   /*This wrapper-medium class is used to fix the width of the coastal image */
     max-width: 976px;
+
   }
 
-  .wrapper {
+  .wrapper { /*This wrapper and its children only pertains to the  beach and image */
     padding-left: 0;
     padding-right: 0;
+    overflow: visible;
 
-  &__image {
-    box-shadow: 5px 5px $mainOrange, -0.5em 0 .2em $mainBlue; /*adds two color */
+   &--shadow {
+    box-shadow: 5px 5px $mainOrange, -0.4em 0 .2em $mainBlue; /*adds two color */
    }
-  }
+
+   &--b-margin {
+    margin-bottom: 1rem;
+
+     @mixin atSmall {
+        margin-bottom: 3.875rem;
+     }
+   }
+  } /*End of nest wrapper */
 }
