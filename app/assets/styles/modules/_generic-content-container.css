@@ -16,7 +16,7 @@
 
   @mixin atMedium {
     p {
-      line-height: 1.1;
+      line-height: 1.7;
     }
   }
 }

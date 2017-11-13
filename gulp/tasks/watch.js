@@ -12,10 +12,11 @@ gulp.task('watch', function(){
   });
 
   watch ('./app/index.html', function(){
+    console.log("Something cool is happening to your HTML");
      browserSync.reload();
   });
 
-  watch('./app/assets/styles/**/*.css', function(){
+  watch ('./app/assets/styles/**/*.css', function(){
     gulp.start('cssInject');
   });
 

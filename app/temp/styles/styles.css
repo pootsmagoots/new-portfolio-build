@@ -565,6 +565,7 @@ a {
 
 .btn--orange {
     background-color: #d59541;
+    background-color: #2f5572;
   }
 
 .btn--large {
@@ -791,6 +792,6 @@ a {
 
 @media (min-width: 800px) {
     .generic-content-container p {
-      line-height: 1.1;
+      line-height: 1.7;
     }
   }
