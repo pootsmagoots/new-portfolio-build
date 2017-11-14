@@ -10,6 +10,7 @@
 </head>
 <body>
   <header>
+
     <img src="assets/images/icons/clear-view-escapes.svg">
     <a href="#" class="btn btn--shadow">Get in Touch</a>
     <nav>
@@ -57,18 +58,20 @@
      <div class="row row--gutters">
        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
         <picture>
-          <source sizes="404px" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w," media="(min-width: 1020px)" />
-          <source sizes="320px" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w," media="(min-width: 800px)" />
-          <img srcset="assets/images/our-start-landscape-i.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder Jane Doe" />
+          <source sizes="404px" srcset="assets/images/travis.png" media="(min-width: 1020px)" />
+          <source sizes="320px" srcset="assets/images/travis-portrait-low.png" media="(min-width: 800px)" />
+          <img srcset="assets/images/travis-landscape.jpg 800w, assets/images/travis-landscape-hi-dpi.jpg 1600w" class="row__image-shadow" alt="Picture of me" />
         </picture>
       </div>
+
        <div class="row__medium-8 row__medium-8--smaller">
          <div class="generic-content-container">
          <h2 class="headline headline--centered headline--no-t-margin">Here is how I got started!</h2>
-         <p>Hello there, welcome to my portfolio page. My story is rather simple. Have you ever had that feeling with a job that makes you feel a little empty inside? Like there is something missing?
-            I had that feeling, in fact I had that feeling for quite some time. However, along came computer programming and that forever has changed my life.
-            Nothing has quite changed me so much (outside of my beautiful wife) than computer programming.
-            I have spent countless hours reading documentation, coding along with classes; once you experience seeing something that you have created, there is nothing quite like it.
+          <p>Hello there, welcome to my portfolio page. My story is rather simple. Have you ever had that feeling with a job that makes you feel a little empty inside? Like there is something missing?
+            I had that feeling, in fact I had that feeling for quite some time.  </p>
+          <p>However, along came computer programming and that forever has changed my life.
+            Nothing has quite changed me so much (outside of my beautiful wife) than computer programming.</p>
+          <p>I have spent countless hours reading documentation, coding along with classes; once you experience seeing something that you have created, there is nothing quite like it.
             This has grown into my passion, and while there are challenges, the gratification that goes along with coding is truly something special.
             So with that, thanks for stopping by and hopefully I might become the developer you're looking for..</p>
       </div>
@@ -81,25 +84,81 @@
   <div id="features" class="page-section page-section--blue"><!---Start of Features section --->
     <div class="wrapper">
 
-     <img src="assets/images/icons/star.svg">
-     <h2>Our Features</h2>
+     <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg">
+      My <strong>Skills</strong></h2>
 
-     <img src="assets/images/icons/rain.svg">
-     <h3>We&rsquo;ll Watch the Weather</h3>
-     <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+    <div class="row row--gutters-large generic-content-container">
+      <div class="row__medium-6">
+        <div class="feature-item">
+          <img src="assets/images/icons/JS.png" class="feature-item__icon">
+          <h3 class="feature-item__title">Javascript</h3>
+          <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+        </div><!---end of feature-item ---->
 
-     <img src="assets/images/icons/globe.svg">
-     <h3>Global Guides</h3>
-     <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+        <div class="feature-item">
+         <img src="assets/images/icons/css.png" class="feature-item__icon">
+         <h3 class="feature-item__title">CSS3</h3>
+         <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+       </div><!---end of feature-item ---->
+     </div><!--end of row medium-6--->
 
-     <img src="assets/images/icons/wifi.svg">
-     <h3>Wi-Fi Waypoints</h3>
+       <div class="row__medium-6">
+        <div class="feature-item">
+         <img src="assets/images/icons/HTML_Logo.png" class="feature-item__icon">
+         <h3 class="feature-item__title">HTML</h3>
+         <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+        </div><!---end of feature-item ---->
+
+       <div class="feature-item">
+        <img src="assets/images/icons/github.png" class="feature-item__icon">
+        <h3 class="feature-item__title">Github</h3>
+        <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+       </div><!---end of feature-item ---->
+      </div><!--end of row_medium-6--->
+
+     <div class="row__medium-6">
+      <div class="feature-item">
+       <img src="assets/images/icons/gulp-2x.png" class="feature-item__icon">
+       <h3 class="feature-item__title">GULP</h3>
+       <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+      </div><!---end of feature-item ---->
+
+     <div class="feature-item">
+      <img src="assets/images/icons/postcss.png" class="feature-item__icon">
+      <h3 class="feature-item__title">PostCSS</h3>
+      <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+    </div><!---end of feature-item ---->
+   </div><!--end of row_medium-6--->
+
+   <div class="row__medium-6">
+    <div class="feature-item">
+     <img src="assets/images/icons/wordpress.png" class="feature-item__icon">
+     <h3 class="feature-item__title">WordPress</h3>
      <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+   </div><!---end of feature-item ---->
 
-     <img src="assets/images/icons/fire.svg">
-     <h3>Survival Kit</h3>
+    <div class="feature-item">
+     <img src="assets/images/icons/nodejs.png" class="feature-item__icon">
+     <h3 class="feature-item__title">Node.JS</h3>
      <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
-  </div>
+   </div><!---end of feature-item ---->
+   </div><!--end of row_medium-6--->
+
+   <div class="row__medium-6">
+    <div class="feature-item">
+     <img src="assets/images/icons/sass.png" class="feature-item__icon">
+     <h3 class="feature-item__title">Sass</h3>
+     <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+   </div><!---end of feature-item ---->
+
+    <div class="feature-item">
+     <img src="assets/images/icons/bootstrap-4.png" class="feature-item__icon">
+     <h3 class="feature-item__title">BootStrap</h3>
+     <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
+    </div><!---end of feature-item ---->
+   </div><!--end of row_medium-6--->
+  </div><!--end of top or row-gutters-large--->
+ </div><!---end of wrapper --->
 </div><!---End of features section --->
 
 
