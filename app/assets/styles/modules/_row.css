@@ -2,67 +2,67 @@
 
   @mixin Clearfix;
 
+
+  &__image-shadow {
+    box-shadow: 0.1px 0.1px 1px 1px $mainOrange;
+  }
+
+
+
   &--gutters {
     margin-right: -65px;
+  }
+
+  &--gutters-large {
+    margin-right: -100px;
   }
 
   &--gutters > div {
     padding-right: 65px;
 
   }
-  /*display: flex;
-  margin-top: 2rem;
-  flex-direction: column;*/
 
-  /*@mixin atMedium {
-    flex-direction: row;
-  }*/  /*This is Flexbox Code */
+  &--gutters-large > div {
+    padding-right: 100px;
+  }
 
   &__b-margin-until-medium {
     margin-bottom: 1rem;
   }
 
   @mixin atMedium {
-    &__b-margin-until-medium {
-     margin-bottom: 0;
+
+      &__medium-4 {
+        float: left;
+        width: 33.33%;
+      }
+      &__b-margin-until-medium {
+        margin-bottom: 0;
+      }
+
+      &__medium-4--larger {
+        width: 37%;
+      }
+
+      &__medium-6 {
+        display: flex;
+        flex: 0 0 50%;
+        justify-content: center;
+      }
+
+      &__medium-6-adjustment {
+       float: left;
+       width: 45.5%;
+      }
+
+
+      &__medium-8 {
+        float: left;
+        width: 66.66%;
+      }
+
+      &__medium-8--smaller {
+        width: 63%;
+      }
     }
-    &__medium-4 {
-    float: left;
-    width: 33.3%;
   }
-
-  &--medium-4--larger {
-    width: 37%;
-  }
-   /*@mixin atSmall {
-      max-width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-    }
-    @mixin atMedium {
-      max-width: 50%;
-    }*/   /*This is Flexbox Code */
-  }
-
-  &__medium-8 {
-
-    @mixin atMedium {
-      float: left;
-      width: 66.66%;
-    }
-
-    &--medium-small {
-      width: 63%;
-    }
-   /*margin-left: 2rem;
-
-   @mixin atSmall {
-      max-width: 100%;
-    }
-    @mixin atMedium {
-      margin-left: 3rem;
-      max-width: 50%;
-    }   /* This is Flexbox Code */
-  }
-
-}
