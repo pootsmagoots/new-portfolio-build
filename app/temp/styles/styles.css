@@ -727,7 +727,7 @@ a {
   }
 
 @media (min-width: 800px) {
-
+    
       .row__medium-4 {
         float: left;
         width: 33.33%;
@@ -751,12 +751,6 @@ a {
             -ms-flex-pack: center;
                 justify-content: center;
       }
-
-      .row__medium-6-adjustment {
-       float: left;
-       width: 45.5%;
-      }
-
 
       .row__medium-8 {
         float: left;

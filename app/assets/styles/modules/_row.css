@@ -7,8 +7,6 @@
     box-shadow: 0.1px 0.1px 1px 1px $mainOrange;
   }
 
-
-
   &--gutters {
     margin-right: -65px;
   }
@@ -31,7 +29,7 @@
   }
 
   @mixin atMedium {
-
+    
       &__medium-4 {
         float: left;
         width: 33.33%;
@@ -49,12 +47,6 @@
         flex: 0 0 50%;
         justify-content: center;
       }
-
-      &__medium-6-adjustment {
-       float: left;
-       width: 45.5%;
-      }
-
 
       &__medium-8 {
         float: left;
