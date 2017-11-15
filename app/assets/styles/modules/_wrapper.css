@@ -13,6 +13,29 @@
 
   }
 
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  &--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+
+
+
   .wrapper { /*This wrapper and its children only pertains to the  beach and image */
     padding-left: 0;
     padding-right: 0;
