@@ -16,6 +16,10 @@
     text-align: center;
   }
 
+  &--mt {
+    margin-top: 1rem;
+  }
+
   &--orange {
     color: $mainOrange;
   }

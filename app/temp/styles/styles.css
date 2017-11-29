@@ -724,6 +724,10 @@ a {
     text-align: center;
   }
 
+.headline--mt {
+    margin-top: 1rem;
+  }
+
 .headline--orange {
     color: #d59541;
   }
