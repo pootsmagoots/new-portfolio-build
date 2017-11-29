@@ -1,11 +1,17 @@
 /* github page svg/sprite module- page on templating. On how to use these variables */
+/* do not edit modules_sprite directly as it is gerneated automatically by gulp
+instead edit Gulp templates sprite.css */
 
 
 {{#shapes}}
+ {{#first}}
+  .icon {
+   background-image:  url('/assets/images/sprites/{{{sprite}}}');
+  }
+ {{/first}}
  .icon--{{base}} {
    width: {{width.outer}}px;
    height: {{height.outer}}px;
-   background-image:  url('/temp/sprite/css/{{{sprite}}}');
    background-position: {{position.relative.xy}};
  }
 {{/shapes}}
