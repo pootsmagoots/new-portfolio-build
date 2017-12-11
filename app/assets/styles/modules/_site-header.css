@@ -5,14 +5,6 @@
   width: 100%;
   transition: background-color .3s ease-out;
 
- &--website-span {
-   margin-left: 10px;
-
-   @mixin atMinor-Small {
-    margin-left: 0;
-   }
- }
-
   &--is-expanded {
     background-color: rgba($mainBlue, .55);
   }
@@ -37,10 +29,13 @@
     background-color: $mainBlue;
     padding: 35px 36px;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    max-width: 150px;
+    max-height: 120px;
 
 
     @mixin atSmall {
-      max-width: 200px;
+      max-width: 180px;
+      max-height: 140px;
     }
 
     @mixin atMedium {
@@ -50,6 +45,7 @@
       left: auto;
       transform: none;
       max-width: none;
+      max-height: none;
     }
 
     &--invisible {

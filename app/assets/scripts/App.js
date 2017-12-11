@@ -1,7 +1,10 @@
-var $ = require('jquery');
-window.jQuery = $;
-window.$ = $;
+
+// var $ = require('jquery');
+// window.jQuery = $;
+// window.$ = $;
 import MobileMenu from './modules/mobile-menu';
+import RevealOnScroll from './modules/RevealOnScroll';
+import $ from 'jquery';
 // var Person = require('./modules/Person'); /*Requires the object that is in the Person.js file */
 // import Person from './modules/Person';
 //
@@ -23,3 +26,5 @@ import MobileMenu from './modules/mobile-menu';
 // end of ES6 examples
 
 var mobileMenu = new MobileMenu()
+new RevealOnScroll($(".feature-item"), "85%");
+new RevealOnScroll($(".projects"), "55%");
