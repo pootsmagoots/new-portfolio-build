@@ -6,7 +6,7 @@
     display: block;
   }
 
-  
+
   &__text-content {
     position: absolute;
     top: 50%;
@@ -14,6 +14,23 @@
     transform: translateY(-50%);
     text-align: center;
     width: 100%;
+    padding-top: 80px;
+
+    @mixin atMinor-Small {
+      padding-top: 0;
+    }
+
+    @mixin atSmall {
+      padding-top: 0;
+    }
+
+    @mixin atMinor-Medium {
+      padding-top: 110px;
+    }
+
+    @mixin atMedium {
+      padding-top: 50px;
+    }
   }
 
   &__title {

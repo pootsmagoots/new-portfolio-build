@@ -1,8 +1,25 @@
+/*Minor mixins are used for small media breaks they are not commonly used */
+
+
+@define-mixin atMinor-Small {
+  @media (min-width: 450px) {
+    @mixin-content;
+  }
+}
+
 @define-mixin atSmall {
   @media (min-width: 530px) {
     @mixin-content;
   }
 }
+
+@define-mixin atMinor-Medium {
+  @media (min-width: 640px) {
+    @mixin-content;
+  }
+}
+
+
 @define-mixin atMedium {
   @media (min-width: 800px) {
     @mixin-content;

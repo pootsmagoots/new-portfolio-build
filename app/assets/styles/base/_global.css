@@ -22,3 +22,7 @@ img {
 a {
   color: $mainOrange;
 }
+
+.btn:active{
+  transform: translateY(2px);
+}
