@@ -27,9 +27,9 @@
       </div>
      <nav class="primary-nav primary-nav--pull-right">
        <ul>
-         <li><a href="#my-beginning">My Beginning</a></li>
-         <li><a href="#skills">Skills</a></li>
-         <li><a href="#projects">Projects</a></li>
+         <li><a href="#my-beginning" id="my-beginning-link">My Beginning</a></li>
+         <li><a href="#skills-gained" id="skills">Skills</a></li>
+         <li><a href="#projects-created" id="projects">Projects</a></li>
        </ul>
      </nav>
     </div>
@@ -58,15 +58,14 @@
   </div><!--- Large-hero div ends --->
 
 
-  <div id="my-beginning" class="page-section"><!---My beginning section start --->
+  <div id="my-beginning" class="page-section" data-matching-link="#my-beginning-link"><!---My beginning section start --->
      <div class="wrapper"><!---strart of wrapper --->
      <h2 class="headline headline--centered headline--orange headline--top headline--light headline--mt">This is my <strong>personal portfolio.</strong></h2>
      <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline--light">This is a complete showcase of all the <strong>work</strong> I have done within the last year.</h3>
 
      <div class="wrapper wrapper--medium wrapper--b-margin">
-      <img srcset="assets/images/beach.png" class="wrapper--shadow" alt="picture of a beautiful beach.">
-      <!-- <img sizes="(min-width: 970px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w,
-      assets/images/first-trip-hi-dpi.jpg 1952w" alt="couple walking down street"/> -->
+      <img sizes="(min-width: 970px) 976px, 100vw" srcset="assets/images/mountain-lake-low-res.jpg 565w, assets/images/mountain-lake-reg.jpg 976w,
+      assets/images/mountain-lake-hi-res.jpg 1952w" class='wrapper--shadow mountain-lake' alt="picture of mountain with a lake">
      </div>
 
      <div class="row row--gutters"><!--start of row --->
@@ -96,7 +95,7 @@
 
 
 
-  <div id="skills" class="page-section page-section--blue"><!---Start of Features section --->
+  <div id="skills-gained" class="page-section page-section--blue" data-matching-link="#skills"><!---Start of Features section --->
     <div class="wrapper"><!---start of wrapper --->
 
      <h2 class="section-title"><span class="icon icon--star section-title__icon"></span>
@@ -177,7 +176,7 @@
 </div><!---End of features section --->
 
 
-  <div id="projects" class="page-section page-section--projects page-section--no-b-padding-until-large"><!---Start of projects section --->
+  <div id="projects-created" class="page-section page-section--projects page-section--no-b-padding-until-large" data-matching-link="#projects"><!---Start of projects section --->
     <div class="wrapper wrapper--no-padding-until-large"><!-- start of wrapper --->
 
     <h2 class="section-title section-title--blue">
@@ -192,6 +191,7 @@
            <h3 class="projects__title">Original Portfolio</h3><!---project title --->
            <h4 class="projects__subtitle">Made with Angular, JS, CSS and HTML5</h4><!--- project subtitle --->
            <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+           <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
        </div><!---end of projects --->
      </div><!---end of row medium --->
 
@@ -203,7 +203,8 @@
         </div><!--- end of projects image --->
          <h3 class="projects__title">Travel Buddy APP</h3><!---project title --->
          <h4 class="projects__subtitle">Made with Angular, JS, Sass, HTML5 and Ruby on Rails</h4><!--- project subtitle --->
-         <p>This full stack app was made in a group setting. I was responsible for the design and front-end portion of the application. The frontend of the app was made with Angular, while the backend was Ruby on Rails. This was the first time working with another developer the collaboration aspect of this project was what I enjoyed the most.</p>
+         <p>&ldquo;This full stack app was made in a group setting. I was responsible for the design and front-end portion of the application. The frontend of the app was made with Angular, while the backend was Ruby on Rails. This was the first time working with another developer the collaboration aspect of this project was what I enjoyed the most.&rdquo;</p>
+         <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
        </div><!---projects --->
      </div><!---end of row medium--->
 
@@ -215,6 +216,7 @@
          <h3 class="projects__title">Advanced CSS Project</h3><!---project title --->
          <h4 class="projects__subtitle">Project made on my free time using only CSS/PostCSS and HTML5</h4><!--- project subtitle --->
          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+         <a href='#'class="projects--link"><strong>Check out the Code</strong></a>
        </div><!---end of projects --->
      </div><!---end of row medium--->
     </div><!---end of row--->
@@ -229,6 +231,7 @@
          <h3 class="projects__title">Javascript Game</h3><!---project title --->
          <h4 class="projects__subtitle">JS, CSS and HTML5</h4><!--- project subtitle --->
          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+         <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
      </div><!---end of projects --->
    </div><!---end of row medium --->
 
@@ -241,6 +244,7 @@
        <h3 class="projects__title">Ruby on Rails Project</h3><!---project title --->
        <h4 class="projects__subtitle">HTML5 and Ruby on Rails</h4><!--- project subtitle --->
        <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+       <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
      </div><!---projects --->
    </div><!---end of row medium--->
 
@@ -252,6 +256,7 @@
        <h3 class="projects__title">Angular 5 App</h3><!---project title --->
        <h4 class="projects__subtitle">Angular 5, HTML5, BootStrap</h4><!--- project subtitle --->
        <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+       <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
      </div><!---end of projects --->
    </div><!---end of row medium--->
   </div><!---end of row--->

@@ -11,6 +11,11 @@
 
   @mixin atMedium {
   background-color: rgba($mainBlue, .3);
+  position: fixed;
+
+   &--dark {
+    background-color: rgba(23,51,72,.85);
+   }
   }
 
   &__btn-container {
@@ -31,6 +36,7 @@
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
     max-width: 150px;
     max-height: 120px;
+    transition: transform .3s ease-out;
 
 
     @mixin atSmall {
@@ -46,6 +52,10 @@
       transform: none;
       max-width: none;
       max-height: none;
+
+      .site-header--dark & {
+        transform: scale(.74);
+      }
     }
 
     &--invisible {

@@ -21,6 +21,11 @@ img {
 
 a {
   color: $mainOrange;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .btn:active{
