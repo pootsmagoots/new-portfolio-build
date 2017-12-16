@@ -23,7 +23,7 @@
 
     <div class="site-header__menu-content">
       <div class="site-header__btn-container">
-       <a href="#" class="btn btn--shadow btn--margin-top">Contact Me</a>
+       <a href="#" class="btn btn--shadow btn--margin-top btn-open-modal">Contact Me</a>
       </div>
      <nav class="primary-nav primary-nav--pull-right">
        <ul>
@@ -52,7 +52,7 @@
       <h1 class="large-hero__title">My Journey</h1>
       <h2 class="large-hero__subtitle">Your Perception</h2>
       <p class="large-hero__description">I create state of the art websites that are guranteed to impress!</p>
-      <p><a href="#projects" class="btn btn--orange btn--large btn--shadow">Check out my work!</a></p>
+      <p><a href="#projects" class="btn btn--orange btn--large btn--shadow btn-open-modal">Check out my work!</a></p>
     </div><!--- end of wrapper --->
    </div><!--- end of main header text content --->
   </div><!--- Large-hero div ends --->
@@ -95,7 +95,7 @@
 
 
 
-  <div id="skills-gained" class="page-section page-section--blue" data-matching-link="#skills"><!---Start of Features section --->
+  <div id="skills-gained" class="page-section page-section--blue page-section--margin-top-large" data-matching-link="#skills"><!---Start of Features section --->
     <div class="wrapper"><!---start of wrapper --->
 
      <h2 class="section-title"><span class="icon icon--star section-title__icon"></span>
@@ -216,7 +216,7 @@
          <h3 class="projects__title">Advanced CSS Project</h3><!---project title --->
          <h4 class="projects__subtitle">Project made on my free time using only CSS/PostCSS and HTML5</h4><!--- project subtitle --->
          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
-         <a href='#'class="projects--link"><strong>Check out the Code</strong></a>
+         <!-- <a href='#'class="projects--link"><strong>Check out the Code</strong></a> -->
        </div><!---end of projects --->
      </div><!---end of row medium--->
     </div><!---end of row--->
@@ -266,9 +266,28 @@
 </div>
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2017 Coded By Travis Batts. All rights reserved.</span><a href="#" class="btn btn--orange btn--shadow">Contact Me</a></p>
+      <p><span class="site-footer__text">Copyright &copy; 2017 Coded By Travis Batts. All rights reserved.</span><a href="#" class="btn btn--orange btn--shadow btn-open-modal">Contact Me</a></p>
     </div>
   </footer>
+
+ <div class="modal">
+   <div class="modal__inner">
+     <h2 class="section-title section-title--blue section-title--less-margin">
+     <span class="icon icon--mail section-title__icon"></span>Get In<strong>Touch</strong></h2>
+    <div class="wrapper wrapper--narrow">
+     <p class="modal__description">Please feel free to contact me, below are some of the ways you can reach me!</p>
+    </div>
+
+   <div class="social-icons">
+     <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+     <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+     <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+     <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+   </div>
+ </div><!--end of modal__innner -->
+
+   <div class="modal__close">X</div>
+ </div><!--end of modal --->
   <script src="/temp/scripts/App.js"></script>
 </body>
 </html>

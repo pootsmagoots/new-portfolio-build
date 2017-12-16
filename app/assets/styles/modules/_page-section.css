@@ -15,6 +15,13 @@
       }
     }
 
+    &--margin-top-large {
+      margin-top: 0;
+      @mixin atLarge {
+      margin-top: 1.5rem;
+    }
+  }
+
 
  &--blue {
   background-color: $mainBlue;

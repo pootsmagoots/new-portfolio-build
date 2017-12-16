@@ -6,6 +6,7 @@
 import MobileMenu from './modules/Mobile-menu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/Stickyheader';
+import Modal from './modules/Modal';
 import $ from 'jquery';
 // var Person = require('./modules/Person'); /*Requires the object that is in the Person.js file */
 // import Person from './modules/Person';
@@ -32,3 +33,4 @@ new RevealOnScroll($(".feature-item"), "85%");
 new RevealOnScroll($(".projects"), "55%");
 new RevealOnScroll($(".mountain-lake"), "65%");
 var stickyHeader = new StickyHeader();
+var modal = new Modal();
