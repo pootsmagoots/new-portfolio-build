@@ -760,10 +760,9 @@ a:hover {
  }
 
 @media (min-width: 1010px) {
-
-.page-section--projects {
-    background: url('/assets/images/testimonials-bg.jpg') no-repeat center/cover
- }
+    .page-section--projects.lazyloaded {
+     background: url('/assets/images/testimonials-bg.jpg') no-repeat center/cover;
+    }
   }
 
 .headline {
@@ -822,11 +821,6 @@ a:hover {
 
 .headline--no-t-margin {
     margin-top: 0;
-  }
-
-.row {
-
-    /*Begin equal height rule */
   }
 
 .row::after {
@@ -947,16 +941,6 @@ a:hover {
           width: 63%;
         }
   }
-
-/*&--equal-height-at-medium {
-      @mixin atMedium {
-        display: flex;
-      }
-      & > div {
-        float: none;
-        display: flex;
-      }
-    }*/
 
 @media (min-width: 1010px) {
 

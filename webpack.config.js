@@ -2,10 +2,13 @@ var path = require('path'); //This creates and absolute path for webpack can use
 
 
 module.exports = {
-  entry: './app/assets/scripts/App.js',
+  entry: {
+   App: './app/assets/scripts/App.js',
+   Vendor: './app/assets/scripts/Vendor.js'
+  },
   output: {
     path: path.resolve(__dirname, './app/temp/scripts'), //This is the final product of the absolute path //
-    filename: 'App.js'
+    filename: '[name].js'
   },
   module: {
     loaders: [
