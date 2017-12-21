@@ -5,7 +5,9 @@ class Modal {
    this.openModalButton = $('.btn-open-modal');
    this.modal = $('.modal');
    this.closeModalButton = $('.modal__close');
+   this.projectsOpenModal = $('projects-open-modal');
    this.events();
+
   }
 
   events() {
@@ -17,10 +19,11 @@ class Modal {
     $(document).keyup(this.keyPressHandler.bind(this));
   }
 
+
   keyPressHandler(e){
   if (e.keyCode === 27) {
     this.closeModal()
-  }
+   }
   }
 
   openModal() {
@@ -31,7 +34,6 @@ class Modal {
   closeModal() {
    this.modal.removeClass('modal--is-visible');
   }
-
 
 }
 

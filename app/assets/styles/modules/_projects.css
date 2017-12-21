@@ -4,8 +4,9 @@
  margin-bottom: 98px;
  text-align: center;
 
+
  @mixin atLarge {
-   padding: 0 1.8125rem 1px 1.8125rem;
+   padding: 0 1.8125rem 1px 3.8125rem;
    margin-bottom: 0;
  }
 
@@ -37,5 +38,14 @@
    font-weight: 400;
    font-size: 0.9375rem;
  }
+
+ &__button {
+   position: absolute;
+   top: 95%;
+   left: 10%;
+   padding: 0 20px;
+   background-color: $mainOrange;
+   outline: none;
+  }
 
 }
