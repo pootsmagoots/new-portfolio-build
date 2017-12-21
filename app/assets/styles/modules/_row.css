@@ -16,7 +16,6 @@
 
   &--gutters > div {
     padding-right: 65px;
-
   }
 
   &--gutters--small{
@@ -73,7 +72,6 @@
 
 
     @mixin atLarge {
-
         &__large-4 {
           float: left;
           width: 33.33%;
@@ -107,7 +105,7 @@
         }
       }
 
-      &--equal-height-at-large-flex {
+      .flexbox &--equal-height-at-large-flex {
         @mixin atLarge {
           display: flex;
         }
