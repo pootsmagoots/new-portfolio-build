@@ -11135,11 +11135,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // end of ES6 examples
 
-var mobileMenu = new _MobileMenu2.default();
+var message = alert("Please note that this site is not currently completed. The Contact Me module and the projects section is still under development");
 // var $ = require('jquery');
 // window.jQuery = $;
 // window.$ = $;
 
+var mobileMenu = new _MobileMenu2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".projects"), "55%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".mountain-lake"), "65%");
