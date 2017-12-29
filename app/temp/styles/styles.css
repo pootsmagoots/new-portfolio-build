@@ -1596,7 +1596,7 @@ font-weight: 100;
 
 .social-icons__icon {
     color: #d59541;
-    display: inline-block;
+    display: inline;
     margin: 0 5px 5px 5px;
     width: 33%;
     height: 72px;
