@@ -1595,12 +1595,13 @@ font-weight: 100;
 }
 
 .social-icons__icon {
-    background-color: #d59541;
+    color: #d59541;
     display: inline-block;
     margin: 0 5px 5px 5px;
     width: 33%;
     height: 72px;
     position: relative;
+    font-size: 4.5rem;
   }
 
 @media (min-width: 530px) {
