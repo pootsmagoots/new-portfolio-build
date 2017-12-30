@@ -60,6 +60,16 @@ gulp.task('usemin', ['styles', 'scripts'], function(){
   .pipe(gulp.dest('./docs'));
 });
 
+gulp.task('usemin', ['styles', 'scripts'], function(){
+  return gulp.src('./app/resume.html')
+  .pipe(useMin({
+    css: [function() {return rev()}, function() {return cssnano()}],
+    js: [function() {return rev()}, function() {return uglify()}]
+  }))
+  .pipe(gulp.dest('./docs'));
+});
+
+
 
 
 gulp.task('build', ['deleteDistFolder', 'copyGeneralFiles', 'optimizeImages', 'useminTrigger']);
