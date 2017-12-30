@@ -28,7 +28,7 @@ import $ from 'jquery';
 
 // end of ES6 examples
 
-var message = alert("Please note that this site is not currently completed. The Contact Me module and the projects section is still under development");
+// var message = alert("Please note that this site is not currently completed. The Contact Me module and the projects section is still under development");
 var mobileMenu = new MobileMenu();
 new RevealOnScroll($(".feature-item"), "85%");
 new RevealOnScroll($(".projects"), "55%");

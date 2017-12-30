@@ -1620,3 +1620,21 @@ font-weight: 100;
       -webkit-transform: translate(-50%, -50%  );
               transform: translate(-50%, -50%  );
     }
+
+.resume-section {
+  position: relative;
+
+}
+
+.resume-section__main-styling {
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+.resume-section--blue {
+    background-color: #2f5572;
+  }
