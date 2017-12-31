@@ -30,4 +30,8 @@
       margin-top: 8px;
     }
   }
+
+  &--cursor:hover {
+    cursor: pointer;
+  }
 }

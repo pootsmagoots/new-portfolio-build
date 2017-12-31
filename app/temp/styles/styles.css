@@ -651,6 +651,10 @@ a:hover {
   }
   }
 
+.btn--cursor:hover {
+    cursor: pointer;
+  }
+
 .wrapper {
   overflow: hidden;
   padding-left: 18px;
@@ -1104,6 +1108,17 @@ a:hover {
    margin-bottom: -80px;
    border: 6px solid rgba(255,255,255, 0.8);
  }
+
+.projects__image--text-container .container-text {
+     position: relative;
+     bottom: 90px;
+     visibility:hidden;
+   }
+
+.projects__image--text-container:hover .container-text {
+    visibility: visible;
+    color: #d59541;
+  }
 
 .projects__title {
    color: #2f5572;

@@ -21,6 +21,16 @@
    top: -80px;
    margin-bottom: -80px;
    border: 6px solid $mainWhite;
+
+  &--text-container .container-text {
+     position: relative;
+     bottom: 90px;
+     visibility:hidden;
+   }
+  &--text-container:hover .container-text {
+    visibility: visible;
+    color: $mainOrange;
+  }
  }
 
  &__title {
