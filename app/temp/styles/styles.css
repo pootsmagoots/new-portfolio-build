@@ -1122,12 +1122,10 @@ a:hover {
  }
 
 .projects__button {
-   position: absolute;
-   top: 95%;
-   left: 10%;
-   padding: 0 20px;
+   padding: 3px 15px;
    background-color: #d59541;
    outline: none;
+   margin-bottom: 5px;
   }
 
 /* github page svg/sprite module- page on templating. On how to use these variables */

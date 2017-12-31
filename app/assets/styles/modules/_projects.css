@@ -40,12 +40,10 @@
  }
 
  &__button {
-   position: absolute;
-   top: 95%;
-   left: 10%;
-   padding: 0 20px;
+   padding: 3px 15px;
    background-color: $mainOrange;
    outline: none;
+   margin-bottom: 5px;
   }
 
 }
