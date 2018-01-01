@@ -1107,18 +1107,29 @@ a:hover {
    top: -80px;
    margin-bottom: -80px;
    border: 6px solid rgba(255,255,255, 0.8);
- }
 
-.projects__image--text-container .container-text {
+  /* &--text-container .container-text {
      position: relative;
-     bottom: 90px;
+     bottom: 95px;
      visibility:hidden;
+     font-size: 1rem;
    }
-
-.projects__image--text-container:hover .container-text {
+  &--text-container:hover .container-text {
     visibility: visible;
-    color: #d59541;
-  }
+    color: $mainOrange;
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px #000;
+
+  } */
+}
+
+.projects__image--opacity:hover {
+  opacity: 0.8;
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+  -webkit-transform: translatey(-5%) scale(.9);
+          transform: translatey(-5%) scale(.9);
+ }
 
 .projects__title {
    color: #2f5572;

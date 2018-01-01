@@ -22,16 +22,28 @@
    margin-bottom: -80px;
    border: 6px solid $mainWhite;
 
-  &--text-container .container-text {
+  /* &--text-container .container-text {
      position: relative;
-     bottom: 90px;
+     bottom: 95px;
      visibility:hidden;
+     font-size: 1rem;
    }
   &--text-container:hover .container-text {
     visibility: visible;
     color: $mainOrange;
-  }
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px #000;
+
+  } */
+}
+
+ &__image--opacity:hover {
+  opacity: 0.8;
+  transition: .3s ease-in;
+  transform: translatey(-5%) scale(.9);
  }
+
+
 
  &__title {
    color: $mainBlue;
