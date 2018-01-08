@@ -1,9 +1,12 @@
 .resume-section {
-  &__resume {
-    position: absolute;
-    top: 30rem;
-    left: 20rem;
-    width: 40rem;
-    height: 40rem;
+  text-align: center;
+  position: relative;
+   &__resume-button {
+
+     @mixin atMedium{
+     position: absolute;
+     top: 58%;
+     left: 43.5%;
+   }
   }
 }

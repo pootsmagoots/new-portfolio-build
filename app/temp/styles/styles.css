@@ -1645,10 +1645,16 @@ font-weight: 100;
               transform: translate(-50%, -50%  );
     }
 
-.resume-section__resume {
-    position: absolute;
-    top: 30rem;
-    left: 20rem;
-    width: 40rem;
-    height: 40rem;
+.resume-section {
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 800px) {
+
+.resume-section__resume-button {
+     position: absolute;
+     top: 58%;
+     left: 43.5%
+  }
   }
