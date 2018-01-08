@@ -33,6 +33,5 @@ var mobileMenu = new MobileMenu();
 new RevealOnScroll($(".feature-item"), "85%");
 new RevealOnScroll($(".projects"), "55%");
 new RevealOnScroll($(".mountain-lake"), "65%");
-new RevealOnScroll($(".resume-section"), "65%");
 var stickyHeader = new StickyHeader();
 var modal = new Modal();

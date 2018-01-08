@@ -1641,8 +1641,8 @@ font-weight: 100;
       position: absolute;
       top: 50%;
       left: 50%;
-      -webkit-transform: translate(-50%, -50%  );
-              transform: translate(-50%, -50%  );
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
     }
 
 .resume-section {
@@ -1650,11 +1650,15 @@ font-weight: 100;
   position: relative;
 }
 
+.resume-section__resume-button {
+     padding: 25px 25px;
+  }
+
 @media (min-width: 800px) {
 
 .resume-section__resume-button {
      position: absolute;
      top: 58%;
-     left: 43.5%
+     left: 42%
   }
   }

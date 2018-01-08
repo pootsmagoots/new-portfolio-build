@@ -2,11 +2,11 @@
   text-align: center;
   position: relative;
    &__resume-button {
-
+     padding: 25px 25px;
      @mixin atMedium{
      position: absolute;
      top: 58%;
-     left: 43.5%;
+     left: 42%;
    }
   }
 }
