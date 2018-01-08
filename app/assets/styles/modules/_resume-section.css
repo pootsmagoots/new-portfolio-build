@@ -1,0 +1,9 @@
+.resume-section {
+  &__resume {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+    width: 40rem;
+    height: 40rem;
+  }
+}

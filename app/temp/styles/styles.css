@@ -1644,3 +1644,11 @@ font-weight: 100;
       -webkit-transform: translate(-50%, -50%  );
               transform: translate(-50%, -50%  );
     }
+
+.resume-section__resume {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+    width: 40rem;
+    height: 40rem;
+  }
