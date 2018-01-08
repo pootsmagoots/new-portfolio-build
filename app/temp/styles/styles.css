@@ -1659,6 +1659,7 @@ font-weight: 100;
 .resume-section__resume-button {
      position: absolute;
      top: 58%;
-     left: 42%
+     left: 43%;
+     padding: 10px 10px
   }
   }
