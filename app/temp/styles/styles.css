@@ -1108,19 +1108,6 @@ a:hover {
    margin-bottom: -80px;
    border: 6px solid rgba(255,255,255, 0.8);
 
-  /* &--text-container .container-text {
-     position: relative;
-     bottom: 95px;
-     visibility:hidden;
-     font-size: 1rem;
-   }
-  &--text-container:hover .container-text {
-    visibility: visible;
-    color: $mainOrange;
-    font-weight: 900;
-    text-shadow: 0.5px 0.5px #000;
-
-  } */
 }
 
 .projects__image--opacity:hover {
@@ -1152,6 +1139,10 @@ a:hover {
    background-color: #d59541;
    outline: none;
    margin-bottom: 5px;
+  }
+
+.projects__collapse_paragraph {
+    display: none;
   }
 
 /* github page svg/sprite module- page on templating. On how to use these variables */
@@ -1647,19 +1638,15 @@ font-weight: 100;
 
 .resume-section {
   text-align: center;
-  position: relative;
 }
 
 .resume-section__resume-button {
      padding: 25px 25px;
   }
 
-@media (min-width: 800px) {
+@media (min-width: 530px) {
 
 .resume-section__resume-button {
-     position: absolute;
-     top: 58%;
-     left: 43%;
-     padding: 10px 10px
+     padding: 15px 15px
   }
   }
