@@ -59,4 +59,12 @@
     display: none;
   }
 
+  &--t--padding {
+    margin-top: 80px;
+  }
+
+  @mixin atSmall {
+    margin-top: 0;
+  }
+
 }

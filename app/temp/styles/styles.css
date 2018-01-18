@@ -833,10 +833,6 @@ a:hover {
    display: table;
   }
 
-.row--t--padding {
-      padding-top: 80px;
-    }
-
 .row__image-shadow {
     -webkit-box-shadow: 0.1px 0.1px 1px 1px #d59541;
             box-shadow: 0.1px 0.1px 1px 1px #d59541;
@@ -882,6 +878,10 @@ a:hover {
   }
 
 @media (min-width: 800px) {
+
+    .row--t--padding {
+      padding-top: 80px;
+    }
 
       .row__medium-4 {
         float: left;
@@ -1143,6 +1143,18 @@ a:hover {
 
 .projects__collapse_paragraph {
     display: none;
+  }
+
+.projects--t--padding {
+    margin-top: 80px;
+  }
+
+@media (min-width: 530px) {
+
+.projects {
+    margin-top: 0
+
+}
   }
 
 /* github page svg/sprite module- page on templating. On how to use these variables */
