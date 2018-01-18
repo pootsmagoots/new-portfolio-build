@@ -834,8 +834,8 @@ a:hover {
   }
 
 .row--t--padding {
-    padding-top: 80px;
-  }
+      padding-top: 80px;
+    }
 
 .row__image-shadow {
     -webkit-box-shadow: 0.1px 0.1px 1px 1px #d59541;
