@@ -455,6 +455,9 @@ template {
 body {
   font-family: "Robot", sans-serif;
   color: #333;
+  /* display: flex;  This is a sticky footer, however this breaks on IE.
+  flex-direction: column;
+  height: 100vh; */
 }
 
 .main-wrapper {
