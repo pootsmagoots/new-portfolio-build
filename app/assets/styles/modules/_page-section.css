@@ -22,10 +22,21 @@
     }
   }
 
+  &--remove-margin {
+    @mixin atLarge{
+      margin-top: 0;
+    }
+  }
+
 
  &--blue {
   background-color: $mainBlue;
   color: #FFF;
+ }
+
+ &--orange {
+   background-color: $mainOrange;
+   color: #FFF;
  }
 
  &--projects {

@@ -40,7 +40,11 @@
     margin: 0;
 
     @mixin atSmall {
+      margin-top: 1rem;
       font-size: 4.8rem;
+    }
+    @mixin atMedium {
+      margin-top: 0;
     }
 
   }

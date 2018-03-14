@@ -455,14 +455,6 @@ template {
 body {
   font-family: "Robot", sans-serif;
   color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100vh;
 }
 
 .main-wrapper {
@@ -555,7 +547,16 @@ a:hover {
 @media (min-width: 530px) {
 
 .large-hero__title {
+      margin-top: 1rem;
       font-size: 4.8rem
+
+  }
+  }
+
+@media (min-width: 800px) {
+
+.large-hero__title {
+      margin-top: 0
 
   }
   }
@@ -620,6 +621,10 @@ a:hover {
 
 .btn--orange {
     background-color: #d59541;
+  }
+
+.btn--blue {
+    background-color: #2f5572;
   }
 
 .btn--large {
@@ -754,9 +759,21 @@ a:hover {
   }
   }
 
+@media (min-width: 1010px) {
+
+.page-section--remove-margin {
+      margin-top: 0
+  }
+  }
+
 .page-section--blue {
   background-color: #2f5572;
   color: #FFF;
+ }
+
+.page-section--orange {
+   background-color: #d59541;
+   color: #FFF;
  }
 
 .page-section--projects {
