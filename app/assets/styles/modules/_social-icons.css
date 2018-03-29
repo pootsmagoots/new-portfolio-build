@@ -1,6 +1,7 @@
 .social-icons {
   text-align: center;
 
+
   &__icon {
     color: $mainOrange;
     display: inline;

@@ -39,6 +39,7 @@
     transition: transform .3s ease-out;
 
 
+
     @mixin atSmall {
       max-width: 180px;
       max-height: 140px;

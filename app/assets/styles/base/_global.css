@@ -20,14 +20,19 @@ img {
 }
 
 a {
-  color: $mainOrange;
+  color: $mainWhite;
   text-decoration: none;
 }
 
 a:hover {
   cursor: pointer;
+  transform: translateY(1px);
 }
 
 .btn:active{
   transform: translateY(2px);
+}
+
+.color-change {
+  color: $mainOrange;
 }
