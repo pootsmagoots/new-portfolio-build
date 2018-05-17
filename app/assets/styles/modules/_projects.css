@@ -48,6 +48,10 @@
    font-size: 0.9375rem;
  }
 
+ &__description {
+   display: none;
+ }
+
  &__button {
    padding: 3px 15px;
    background-color: $mainOrange;

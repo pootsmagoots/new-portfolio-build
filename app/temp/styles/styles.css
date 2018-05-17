@@ -1160,6 +1160,10 @@ a:hover {
    font-size: 0.9375rem;
  }
 
+.projects__description {
+   display: none;
+ }
+
 .projects__button {
    padding: 3px 15px;
    background-color: #d59541;
